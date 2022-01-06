@@ -1,16 +1,12 @@
 import type { NextPage } from 'next'
-import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Grid';
+import Container from '@mui/material/Container';
+import SearchPanel from '../components/SearchPanel'
 
 const Home: NextPage = () => {
   return (
-    <Grid container>
-      <Grid item xs={6}>
-        <Paper elevation={3}>
-          Coucou
-        </Paper>
-      </Grid>
-    </Grid>
+    <div>
+      <SearchPanel />
+    </div>
   )
 }
 
